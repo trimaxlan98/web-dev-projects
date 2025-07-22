@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/IAC_CubeSat.jpg";
+import projImg2 from "../assets/img/Ext_Es_1.png";
+import projImg3 from "../assets/img/IAC_2.jpg";
+import projImg4 from "../assets/img/PAN_Po.jpg";
+import projImg5 from "../assets/img/CursoRA.jpg";
+import projImg6 from "../assets/img/Protec_civil.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +14,34 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Aerospace Research",
+      description: "CubeSat Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Virtual Reality",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Institutional Representation",
+      description: "Instituto Politécnico Nacional",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Dissemination of Science",
+      description: "Holding Conferences",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Enginnering Courses",
+      description: "Technical Training",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Civil Protection",
+      description: "Work with Goverment Agencies",
+      imgUrl: projImg6,
     },
   ];
 

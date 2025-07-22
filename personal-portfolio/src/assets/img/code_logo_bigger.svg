@@ -1,0 +1,16 @@
+<svg width="400" height="160" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definir gradiente para efecto moderno -->
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="2" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Texto CO.DE unido -->
+  <text x="20" y="110" font-family="Arial, sans-serif" font-size="96" font-weight="bold" 
+        fill="url(#textGradient)" filter="url(#shadow)">CO.DE</text>
+</svg>
